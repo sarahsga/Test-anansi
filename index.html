@@ -14,7 +14,7 @@
     function openInDefaultBrowser(event) {
       console.log("opening...");
       event.preventDefault(); // Prevent the default link behavior
-      window.open(event.target.href, '_system'); // Open the link in the default system browser
+      window.location.href = event.target.href;
     }
     </script>
 </body>

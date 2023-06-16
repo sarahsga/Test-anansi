@@ -10,7 +10,9 @@
   <a href="https://www.storiesbyanansi.com/" onclick="openInDefaultBrowser(event)">Link</a>
 
     <script>
+      console.log("HELLLO WORLD!");
     function openInDefaultBrowser(event) {
+      console.log("opening...");
       event.preventDefault(); // Prevent the default link behavior
       window.open(event.target.href, '_system'); // Open the link in the default system browser
     }
